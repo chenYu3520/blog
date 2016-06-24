@@ -1,0 +1,10 @@
+jMeter is an Open Source testing software. It is 100% pure Java application for load and performance testing. jMeter is designed to cover categories of tests like load, functional, performance, regression, etc., and it requires JDK 5 or higher. This tutorial will give you great understanding on jMeter framework needed to test an enterprise level application to deliver it with robustness and reliability.
+jMeter是一个开源测试软件。它是一个用于负载和性能测试的纯Java的应用。jMeter被设计应用于负载、功能性、性能、回归等等的测试，它需要JDK5及以上的版本才能支持。该教程将会让你更好的理解，交付一个耐用性和可用性的企业级应用需要在jMeter框架上测试。
+Audience
+This tutorial is designed for Software Professionals, who are willing to learn jMeter Framework in simple and easy steps. This tutorial will give you great understanding on jMeter Framework concepts, and after completing this tutorial, you will be at intermediate level of expertise from where you can take yourself to higher level of expertise.
+读者
+本教程针对软件专业，因为他们学习jMeter框架会更简单、更易于理解。本教程将会给你便于理解的jMeter框架的概念，在完成本教程后，你的经验将会从中级水平提升到高级。
+Prerequisites
+Before proceeding with this tutorial, you should have a basic understanding of Java programming language, text editor and execution of programs, etc., because you are going to use jMeter to handle all levels of Java project testing (regression, functional, load, performance, etc.,), so it will be good if you have knowledge of software development and software testing processes.
+先决条件
+在开始本教程之前，你可能需要有基本的Java编程语言，文本编辑以及程序执行等等的基础知识，因为你将使用jMeter去处理所有Jave级的项目测试（回归，功能，负载，性能...），因此如果你拥有软件开发和软件测试的基础将会非常好。
