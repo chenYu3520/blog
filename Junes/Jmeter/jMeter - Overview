@@ -1,0 +1,51 @@
+Before going into the details of JMeter, let us first understand a few jargons associated with the testing of any application.
+在了解jMeter细节之前，让我们首先明白一些应用测试相关的词汇。
+Performance Test − This test sets the best possible performance expectation under a given configuration of infrastructure. It also highlights early in the testing process if any changes need to be made before the application goes into production.
+性能测试-该测试基础在信息配置中设置最有可以的性能期望值。它也强调在应用部署到项目前，如果需求变更如何更容易操作。
+Load Test − This test is basically used for testing the system under the top load it was designed to operate under.
+负载测试-该测试 测试高负载系统基本使用
+Stress Test − This test is an attempt to break the system by overwhelming its resources.
+
+What is JMeter?
+JMeter is a software that can perform load test, performance-oriented business (functional) test, regression test, etc., on different protocols or technologies.
+
+Stefano Mazzocchi of the Apache Software Foundation was the original developer of JMeter. He wrote it primarily to test the performance of Apache JServ (now called as Apache Tomcat project). Apache later redesigned JMeter to enhance the GUI and to add functional testing capabilities.
+
+JMeter is a Java desktop application with a graphical interface that uses the Swing graphical API. It can therefore run on any environment / workstation that accepts a Java virtual machine, for example − Windows, Linux, Mac, etc.
+
+The protocols supported by JMeter are −
+
+Web − HTTP, HTTPS sites 'web 1.0' web 2.0 (ajax, flex and flex-ws-amf)
+Web Services − SOAP / XML-RPC
+Database via JDBC drivers
+Directory − LDAP
+Messaging Oriented service via JMS
+Service − POP3, IMAP, SMTP
+FTP Service
+JMeter Features
+Following are some of the features of JMeter −
+
+Being an open source software, it is freely available.
+
+It has a simple and intuitive GUI.
+
+JMeter can conduct load and performance test for many different server types − Web - HTTP, HTTPS, SOAP, Database via JDBC, LDAP, JMS, Mail - POP3, etc.
+
+It is a platform-independent tool. On Linux/Unix, JMeter can be invoked by clicking on JMeter shell script. On Windows, it can be invoked by starting the jmeter.bat file.
+
+It has full Swing and lightweight component support (precompiled JAR uses packages javax.swing.* ).
+
+JMeter store its test plans in XML format. This means you can generate a test plan using a text editor.
+
+Its full multi-threading framework allows concurrent sampling by many threads and simultaneous sampling of different functions by separate thread groups.
+
+It is highly extensible.
+
+It can also be used to perform automated and functional testing of the applications.
+
+How JMeter Works?
+JMeter simulates a group of users sending requests to a target server, and returns statistics that show the performance/functionality of the target server/application via tables, graphs, etc.
+
+Take a look at the following figure that depicts how JMeter works −
+
+http://www.tutorialspoint.com/jmeter/images/jmeter_process.jpg
