@@ -1,0 +1,5 @@
+线程组
+  |-JDBC Connection Configuration
+  |-JDBC Request
+  |-响应断言
+  |-
